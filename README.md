@@ -38,6 +38,7 @@ embedQuake3({
 ## Main differences with the original project:
 
 - Removed CDN dependency.
+- Removed cache flow in the LocalStorage.
 - Fixed build so it can handle PK3 files dynamically.
 - Fixed build so it can handle big files (the commercial version).
 
