@@ -9,11 +9,7 @@ A Quake III Arena port designed for running in vanilla JavaScript pre-ECMAScript
 
 ## Screenshots:
 
-![alt screenshot1](https://lrusso.github.io/Quake3/SCREENSHOT1.jpg)
-
-![alt screenshot2](https://lrusso.github.io/Quake3/SCREENSHOT2.jpg)
-
-![alt screenshot3](https://lrusso.github.io/Quake3/SCREENSHOT3.jpg)
+![alt screenshot1](https://lrusso.github.io/Quake3/Quake3.jpg)
 
 ## How to use it:
 
