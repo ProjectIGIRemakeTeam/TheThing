@@ -17,7 +17,7 @@ A Quake III Arena port designed for running in vanilla JavaScript pre-ECMAScript
 
 ## How to use it:
 
-Examples of loading local and online files can be found [here](https://github.com/lrusso/Genesis/blob/main/Genesis.htm#L138-L186) and [here](https://github.com/lrusso/Genesis/blob/main/Genesis.htm#L214-L256).
+Examples of loading local and online files can be found [here](https://github.com/lrusso/Quake3/blob/master/Quake3.htm#L131-L153) and [here](https://github.com/lrusso/Genesis/blob/main/Genesis.htm#L214-L256).
 
 ```js
 embedQuake3({
