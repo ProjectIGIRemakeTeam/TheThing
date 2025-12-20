@@ -99,6 +99,7 @@
     <script src="Quake3.min.js"></script>
     <script>
       var container = document.getElementById("container")
+      var gameWrapper = document.getElementById("game")
       var demoLoader = document.getElementById("demo-loader")
       var fileSelector = document.getElementById("file-selector")
       var fileInput = document.getElementById("file-input")
@@ -119,6 +120,10 @@
             fileSelector.style.display = "block"
             fileSelector.tabIndex = 1
           }
+
+          gameWrapper.addEventListener("contextmenu", function (event) {
+            event.preventDefault()
+          })
 
           fileSelector.addEventListener("click", function () {
             fileInput.click()
