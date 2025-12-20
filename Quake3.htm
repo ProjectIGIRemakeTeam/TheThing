@@ -159,6 +159,24 @@
           })
 
           fileInput.addEventListener("change", function (event) {
+            var files = event.target.files
+            var hasPk3 = false
+
+            for (var i = 0; i < files.length; i++) {
+              if (
+                files[i].name.toLowerCase().indexOf(".pk3") ===
+                files[i].name.length - 4
+              ) {
+                hasPk3 = true
+                break
+              }
+            }
+
+            if (!hasPk3) {
+              location.reload()
+              return
+            }
+
             container.style.display = "none"
             pleaseWait.style.display = "block"
 
