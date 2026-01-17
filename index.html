@@ -280,6 +280,10 @@
         opacity: 0
       }
     }
+
+    button {
+      cursor: pointer;
+    }
   </style>
 </head>
 
@@ -319,27 +323,27 @@
       </svg>
     </button>
     <input type="file" id="file-input" multiple>
-    <!-- Add this hidden div inside your #container -->
-    <div id="os-buttons" style="display: none; position: fixed; bottom: 10px; left: 10px; z-index: 10000;">
-      <button id="macos-btn" class="os-btn"
-        style="background: transparent; border: none; padding: 0; margin-right: 10px;">
-        <img src="images/macos.png" alt="macOS" style="width: 32px; height: 32px;">
-      </button>
-      <button id="windows-btn" class="os-btn" style="background: transparent; border: none; padding: 0;">
-        <img src="images/windows.png" alt="Windows" style="width: 32px; height: 32px;">
-      </button>
+    <!-- Bottom buttons -->
+    <div>
+      <div id="os-buttons" style="display: none; position: fixed; bottom: 10px; left: 10px; z-index: 10000;">
+        <button id="macos-btn" class="os-btn"
+          style="background: transparent; border: none; padding: 0; margin-right: 10px;">
+          <img src="images/macos.png" alt="macOS" style="width: 32px; height: 32px;">
+        </button>
+        <button id="windows-btn" class="os-btn" style="background: transparent; border: none; padding: 0;">
+          <img src="images/windows.png" alt="Windows" style="width: 32px; height: 32px;">
+        </button>
+      </div>
+      <div id="tech-buttons" style="display: none; position: fixed; bottom: 10px; right: 10px; z-index: 10000;">
+        <button id="q3-btn" class="tech-btn"
+          style="background: transparent; border: none; padding: 0; margin-right: 10px;">
+          <img src="images/q3.png" alt="Quake 3" style="width: 32px; height: 32px;">
+        </button>
+        <button id="js-btn" class="tech-btn" style="background: transparent; border: none; padding: 0;">
+          <img src="images/js.png" alt="JavaScript" style="width: 32px; height: 32px;">
+        </button>
+      </div>
     </div>
-
-    <div id="tech-buttons" style="display: none; position: fixed; bottom: 10px; right: 10px; z-index: 10000;">
-      <button id="q3-btn" class="tech-btn"
-        style="background: transparent; border: none; padding: 0; margin-right: 10px;">
-        <img src="images/q3.png" alt="Quake 3" style="width: 32px; height: 32px;">
-      </button>
-      <button id="js-btn" class="tech-btn" style="background: transparent; border: none; padding: 0;">
-        <img src="images/js.png" alt="JavaScript" style="width: 32px; height: 32px;">
-      </button>
-    </div>
-
   </div>
   <!-- Quake3-engine-js -->
   <script src="Quake3.min.js"></script>
